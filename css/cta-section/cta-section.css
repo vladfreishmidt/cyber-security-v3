@@ -1,0 +1,17 @@
+section.cta {
+    height: 400px;
+    padding: 100px 0;
+    background: rgb(73, 61, 61);
+    margin-bottom: 0;
+    background: url(../../img/bug-bounty-cta-bg.jpg) center center;
+}
+
+section.cta p.description {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+section.cta .btn-container {
+    margin-top: 50px;
+}
