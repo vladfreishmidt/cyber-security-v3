@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Cyber Security</title>
+    <link href="https://fonts.googleapis.com/css?family=Coda:400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
@@ -11,98 +13,57 @@
   <body>
     <header>
       <div class="grid-container">
-        <nav>
-          <ul class="dropdown menu main-navigation-list" data-dropdown-menu>
-            <li class="is-dropdown-submenu-parent dropdown-box">
-              <a href="#">Services</a>
-              <ul class="menu grid-x">
-                <div class="sub-menu-container grid-x align-between">
-                  <!-- Cyber Training -->
-                  <div class="sub-menu cell shrink">
-                    <h6>Cyber Training</h6>
-                    <li>
-                      <a href="#">Cyber School</a>
-                    </li>
-                    <li>
-                      <a href="#">Online learning</a>
-                    </li>
-                    <li>
-                      <a href="#">Workshops</a>
-                    </li>
-                    <li>
-                      <a href="#">Bespoke courses</a>
-                    </li>
-                  </div>
-                  <!-- Bug Bounty -->
-                  <div class="sub-menu cell shrink">
-                    <h6>Bug Bounty</h6>
-                    <li>
-                      <a href="bug-bounty/bug-bounty-program.html">Bug Bounty Program</a>
-                    </li>
-                    <li>
-                      <a href="#">Private crowd testing</a>
-                    </li>
-                  </div>
-                  <!-- Pen Testing -->
-                  <div class="sub-menu cell shrink">
-                    <h6>Pen Testing</h6>
-                    <li>
-                      <a href="#">Penetration Testing Overview</a>
-                    </li>
-                    <li>
-                      <a href="#">Web Application Testing</a>
-                    </li>
-                    <li>
-                      <a href="#">Mobile Application testing</a>
-                    </li>
-                    <li>
-                      <a href="#">Red Teaming</a>
-                    </li>
-                    <li>
-                      <a href="#">Service 5</a>
-                    </li>
-                  </div>
-                  <!-- Code Review -->
-                  <div class="sub-menu cell shrink">
-                    <h6>Code Review</h6>
-                    <li>
-                      <a href="#">Service 1</a>
-                    </li>
-                    <li>
-                      <a href="#">Service 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Service 3</a>
-                    </li>
-                  </div>
-                  <!-- Consulting -->
-                  <div class="sub-menu cell shrink">
-                    <h6>Consulting</h6>
-                    <li>
-                      <a href="#">Service 1</a>
-                    </li>
-                    <li>
-                      <a href="#">Service 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Service 3</a>
-                    </li>
-                  </div>
-                  <!-- Other Services -->
-                  <div class="sub-menu cell shrink">
-                    <h6>Other Services</h6>
-                    <li>
-                      <a href="#">Talent Sourcing</a>
-                    </li>
-                  </div>
-                </div>
-              </ul>
-            </li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
+        <nav class="grid-x align-justify align-middle">
+          <div class="logo cell shrink">
+            <img src="img/logo.png" alt="Cyber Security logo">
+          </div>
+          <div class="nav-container cell shrink">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li>
+                <a href="#">Cyber Training</a>
+                <ul class="menu">
+                  <li><a href="#">Cyber School</a></li>
+                  <li><a href="#">Online Learning</a></li>
+                  <li><a href="#">Workshops</a></li>
+                  <li><a href="#">Bespoke Courses</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Bug Bounty</a>
+                <ul class="menu">
+                  <li><a href="#">Bug Bounty Program</a></li>
+                  <li><a href="#">Private Bug Bounty
+                    </a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Pen Testing</a>
+                <ul class="menu">
+                  <li><a href="#">Security Assessment</a></li>
+                  <li><a href="#">Web application testing</a></li>
+                  <li><a href="#">Mobile application testing</a></li>
+                  <li><a href="#">Network penetration testing</a></li>
+                  <li><a href="#">DDos Resistance Testing</a></li>
+                  <li><a href="#">Secure Code Review</a></li>
+                  <li><a href="#">Red Teaming</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Advisory</a>
+                <ul class="menu">
+                  <li><a href="#">Assessments and audits</a></li>
+                  <li><a href="#">Compliance</a></li>
+                  <li><a href="#">Policies</a></li>
+                  <li><a href="#">Incident Response Planning</a></li>
+                  <li><a href="#">vCISO</a></li>
+                  <li><a href="#">Talent Sourcing</a></li>
+                </ul>
+              </li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -125,7 +86,7 @@
           </div>
 
  
-          <div class="right-container cell large-5">
+          <div class="right-container cell large-5" style="display: none;">
             <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
               <ul class="orbit-container">
                 <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
@@ -176,9 +137,9 @@
       </div>    
     </section>
 
-    <!-- Core Services -->
+    <!-- Services -->
     <section class="core-services">
-        <h2 class="text-center">Core Services</h2>
+        <h2 class="text-center">Services</h2>
         <div class="grid-container">
           <div class="grid-x align-center">
             <div class="_box cell large-3 text-center">
@@ -227,92 +188,55 @@
         </div>
     </section>
     
-    <!-- Additional Services -->
-    <section class="additional-services">
-      <h2 class="text-center">Additional Services</h2>
-      <div class="grid-container">
-        <div class="grid-x align-center">
-          <div class="_box cell large-3 text-center">
-            <div class="icon">
-              <img src="img/promo-1.png" alt="icon">
-            </div>
-            <h3>Web Application Testing</h3>
-            <div class="_description">
-              <p>
-                Proin vitae enim mollis, malesuada ex vel, pellentesque libero.
-                Quisque sed ipsum et dolor maximus ultricies. 
-              </p>
-            </div>
-          </div>
-          <div class="_box cell large-3 text-center">
-            <div class="icon">
-              <img src="img/promo-1.png" alt="icon">
-            </div>
-            <h3>Private crowd testing</h3>
-            <div class="_description">
-              <p>
-                Proin vitae enim mollis, malesuada ex vel, pellentesque libero.
-                Quisque sed ipsum et dolor maximus ultricies. 
-              </p>
-            </div>
-          </div>
-          <div class="_box cell large-3 text-center">
-            <div class="icon">
-              <img src="img/promo-1.png" alt="icon">
-            </div>
-            <h3>Mobile Application testing</h3>
-            <div class="_description">
-              <p>
-                Proin vitae enim mollis, malesuada ex vel, pellentesque libero.
-                Quisque sed ipsum et dolor maximus ultricies. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="grid-x align-center">
-          <div class="_box cell large-3 text-center">
-            <div class="icon">
-              <img src="img/promo-1.png" alt="icon">
-            </div>
-            <h3>Online learning</h3>
-            <div class="_description">
-              <p>
-                Proin vitae enim mollis, malesuada ex vel, pellentesque libero.
-                Quisque sed ipsum et dolor maximus ultricies. 
-              </p>
-            </div>
-          </div>
-          <div class="_box cell large-3 text-center">
-            <div class="icon">
-              <img src="img/promo-1.png" alt="icon">
-            </div>
-            <h3>Red Teaming</h3>
-            <div class="_description">
-              <p>
-                Proin vitae enim mollis, malesuada ex vel, pellentesque libero.
-                Quisque sed ipsum et dolor maximus ultricies. 
-              </p>
-            </div>
-          </div>
-          <div class="_box cell large-3 text-center">
-            <div class="icon">
-              <img src="img/promo-1.png" alt="icon">
-            </div>
-            <h3>Service #6</h3>
-            <div class="_description">
-              <p>
-                Proin vitae enim mollis, malesuada ex vel, pellentesque libero.
-                Quisque sed ipsum et dolor maximus ultricies. 
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <footer>
       <div class="grid-container">
-        <div class="grid-x">
+        <div class="grid-x  align-justify footer-nav">
+          <div class="cell shrink text-left">
+            <h5>Cyber Training</h5>
+            <ul>
+              <li><a href="#">Cyber School</a></li>
+              <li><a href="#">Online Learning</a></li>
+              <li><a href="#">Workshops</a></li>
+              <li><a href="#">Bespoke Courses</a></li>
+            </ul>
+          </div>
+        <!-- ------------------------------------ -->
+          <div class="cell shrink text-left">
+            <h5>Bug Bounty</h5>
+            <ul>
+              <li><a href="#">Bug Bounty Program</a></li>
+              <li><a href="#">Private Cyber Testing</a></li>
+            </ul>
+          </div>
+        <!-- ------------------------------------ -->
+          <div class="cell shrink text-left">
+            <h5>Pen Testing</h5>
+            <ul>
+              <li><a href="#">Security Assessment</a></li>
+              <li><a href="#">Web application testing</a></li>
+              <li><a href="#">Mobile application testing</a></li>
+              <li><a href="#">Network penetration testing</a></li>
+              <li><a href="#">DDos Resistance Testing</a></li>
+              <li><a href="#">Secure Code Review</a></li>
+              <li><a href="#">Red Teaming</a></li>
+            </ul>
+          </div>
+        <!-- ------------------------------------ -->
+          <div class="cell shrink text-left">
+            <h5>Advisory</h5>
+            <ul>
+              <li><a href="#">Assessments and audits</a></li>
+              <li><a href="#">Compliance</a></li>
+              <li><a href="#">Policies</a></li>
+              <li><a href="#">Incident Response Planning</a></li>
+              <li><a href="#">vCISO</a></li>
+              <li><a href="#">Talent Sourcing</a></li>
+            </ul>
+          </div>
+        <!-- ------------------------------------ -->
+        </div>  
+        <div class="grid-x copyright">
           <div class="cell large-12 text-center">
             <p>copyright 2019</p>
           </div>
