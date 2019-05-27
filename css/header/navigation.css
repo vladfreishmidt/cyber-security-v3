@@ -39,3 +39,14 @@ li.is-submenu-item.is-dropdown-submenu-item a:hover,
 .dropdown.menu > li.is-dropdown-submenu-parent > a:hover::after{
     display: none;
 }
+
+.dropdown .menu h5 {
+    color: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 7px;
+    text-align: center;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 14px;
+}

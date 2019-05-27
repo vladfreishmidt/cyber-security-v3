@@ -3,3 +3,13 @@ section.top h1 {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+/* SLIDER */
+
+section.top .slide img {
+    max-width: 100px;
+}
+
+section.top .orbit-container {
+    height: 210px !important;
+}

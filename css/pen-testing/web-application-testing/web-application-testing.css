@@ -1,0 +1,36 @@
+#web-app-test section.top {
+    background: url(../../../img/web-app-test-top-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#web-app-test section.top h1 {
+    text-transform: capitalize;
+}
+
+#web-app-test section.top p._description {
+    font-size: 17px;
+}
+
+/* ABOUT */
+#web-app-test section.about {
+    padding: 80px 0;
+    margin-bottom: 0;
+}
+
+#web-app-test section.about .col-right {
+    padding: 0 30px;
+}
+
+#web-app-test section.about p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* CTA */
+#web-app-test section.cta {
+    background: url(../../../img/ddos-cta-2.jpg) center center;
+    background-size: cover;
+}
