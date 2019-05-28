@@ -1,4 +1,10 @@
-
+section.top {
+    background-image: url(../../img/top-bg-001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
 section.top h1 {
     font-weight: 400;
     text-transform: uppercase;
