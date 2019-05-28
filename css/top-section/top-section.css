@@ -17,5 +17,32 @@ section.top .slide img {
 }
 
 section.top .orbit-container {
-    height: 210px !important;
+    height: 260px !important;
+}
+
+section.top .orbit-container .orbit-slide .slide{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 90px;
+}
+
+.top-slider .first-slide {
+    background: url(../../img/event.jpeg) center top no-repeat;
+    height: 100%;
+    background-size: cover; 
+ 
+}
+
+.top-slider .second-slide {
+    background: url(../../img/news.jpeg) center top no-repeat;
+    height: 100%;
+    background-size: cover; 
+}
+
+.top-slider .third-slide {
+    background: url(../../img/pen-testing.jpg) center top no-repeat;
+    height: 100%;
+    background-size: cover; 
 }
