@@ -31,18 +31,23 @@ section.top .orbit-container .orbit-slide .slide{
 .top-slider .first-slide {
     background: url(../../img/event.jpeg) center top no-repeat;
     height: 100%;
-    background-size: cover; 
+    background-size: cover;
+    border: 2px solid #72dded; 
  
 }
 
 .top-slider .second-slide {
     background: url(../../img/news.jpeg) center top no-repeat;
     height: 100%;
-    background-size: cover; 
+    background-size: cover;
+    background-size: cover;
+    border: 2px solid #72dded;  
 }
 
 .top-slider .third-slide {
     background: url(../../img/pen-testing.jpg) center top no-repeat;
     height: 100%;
-    background-size: cover; 
+    background-size: cover;
+    background-size: cover;
+    border: 2px solid #72dded;  
 }
