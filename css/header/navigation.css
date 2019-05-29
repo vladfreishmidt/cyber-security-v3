@@ -1,5 +1,7 @@
 header {
     padding: 30px 0 !important;
+    position: relative;
+    z-index: 99999;
 }
 header .logo img {
     max-width:50px;

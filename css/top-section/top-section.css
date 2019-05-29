@@ -1,9 +1,27 @@
 section.top {
-    background-image: url(../../img/top-bg-001.png);
+    /* background-image: url(../../img/top-bg-001.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+    position: relative;
+    z-index: 1;
     
+}
+
+.grid-container {
+    position: relative;
+    z-index: 9999;
+}
+
+section.top .right-container .orbit-slider{
+    z-index: 9999;
+    position: relative;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 section.top h1 {
     font-weight: 400;
